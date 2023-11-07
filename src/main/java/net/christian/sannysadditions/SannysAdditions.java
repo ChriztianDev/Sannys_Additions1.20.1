@@ -38,6 +38,7 @@ public class SannysAdditions
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.PURPANITE);
+            event.accept(ModItems.RAW_PURPANITE);
         }
     }
 
