@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(Items.DIAMOND);
 
                         pOutput.accept(ModBlocks.PURPANITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_PURPANITE_BLOCK.get());
                     })
                     .build());
 

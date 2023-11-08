@@ -21,6 +21,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PURPANITE_BLOCK = registerBlock("purpanite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> RAW_PURPANITE_BLOCK = registerBlock("raw_purpanite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
