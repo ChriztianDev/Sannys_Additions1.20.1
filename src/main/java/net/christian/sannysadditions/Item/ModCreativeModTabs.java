@@ -1,6 +1,7 @@
 package net.christian.sannysadditions.Item;
 
 import net.christian.sannysadditions.SannysAdditions;
+import net.christian.sannysadditions.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_PURPANITE.get());
 
                         pOutput.accept(Items.DIAMOND);
+
+                        pOutput.accept(ModBlocks.PURPANITE_BLOCK.get());
                     })
                     .build());
 

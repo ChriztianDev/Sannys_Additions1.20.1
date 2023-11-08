@@ -3,6 +3,7 @@ package net.christian.sannysadditions;
 import com.mojang.logging.LogUtils;
 import net.christian.sannysadditions.Item.ModCreativeModTabs;
 import net.christian.sannysadditions.Item.ModItems;
+import net.christian.sannysadditions.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +30,8 @@ public class SannysAdditions
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
