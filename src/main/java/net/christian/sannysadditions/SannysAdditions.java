@@ -1,10 +1,10 @@
 package net.christian.sannysadditions;
 
 import com.mojang.logging.LogUtils;
+import net.christian.sannysadditions.Item.ModCreativeModTabs;
 import net.christian.sannysadditions.Item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -25,9 +25,13 @@ public class SannysAdditions
     public SannysAdditions()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.register(modEventBus);
+
+        ModCreativeModTabs.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
+
         MinecraftForge.EVENT_BUS.register(this);
+
         modEventBus.addListener(this::addCreative);
     }
 
