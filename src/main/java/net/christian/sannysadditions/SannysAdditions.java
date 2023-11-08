@@ -28,6 +28,8 @@ public class SannysAdditions
 
         ModCreativeModTabs.register(modEventBus);
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
