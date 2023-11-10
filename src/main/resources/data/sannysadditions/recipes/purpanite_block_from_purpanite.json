@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sannysadditions:purpanite"
+    }
+  },
+  "result": {
+    "item": "sannysadditions:purpanite_block"
+  }
+}
