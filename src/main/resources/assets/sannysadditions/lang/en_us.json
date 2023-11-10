@@ -5,6 +5,12 @@
   "block.sannysadditions.purpanite_block": "Block of Purpanite",
   "block.sannysadditions.raw_purpanite_block": "Block of Raw Purpanite",
 
+  "block.sannysadditions.purpanite_ore": "Purpanite Ore",
+  "block.sannysadditions.deepslate_purpanite_ore": "Deepslate Purpanite Ore",
+  "block.sannysadditions.nether_purpanite_ore": "Nether Purpanite Ore",
+  "block.sannysadditions.end_stone_purpanite_ore": "End Stone Purpanite Ore",
+
+
   "creativetab.sannysadditions_tab": "Sannys Additions Tab"
 }
 

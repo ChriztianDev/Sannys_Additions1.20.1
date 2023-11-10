@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "sannysadditions:block/nether_purpanite_ore"
+  }
+}

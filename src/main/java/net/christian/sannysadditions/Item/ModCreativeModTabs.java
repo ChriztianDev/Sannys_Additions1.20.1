@@ -26,6 +26,10 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.PURPANITE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_PURPANITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.PURPANITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_PURPANITE_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_PURPANITE_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_PURPANITE_ORE.get());
                     })
                     .build());
 
